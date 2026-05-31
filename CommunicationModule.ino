@@ -22,7 +22,6 @@ PubSubClient mqttClient(espClient);
 WebServer server(80);
 
 // --- Global Tracking State ---
-float currentTemperature = 25.0;
 unsigned long lastMqttPublish = 0;
 unsigned long lastReconnectAttempt = 0;
 
